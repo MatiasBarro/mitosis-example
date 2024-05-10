@@ -1,0 +1,24 @@
+{
+    "name": "@mitosis-example/library-react",
+    "type": "module",
+    "files": [
+        "package",
+        "src"
+    ],
+    "main": "./src/index.ts",
+    "module": "./src/index.ts",
+    "svelte": "./src/index.ts",
+    "exports": {
+        "./src": {
+            "import": "./src/index.ts",
+            "require": "./src/index.ts"
+        },
+        ".": {
+            "import": "./src/index.ts",
+            "require": "./src/index.ts"
+        }
+    },
+    "dependencies": {
+        "@types/node": "^20.12.11"
+    }
+}
